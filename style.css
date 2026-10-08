@@ -64,6 +64,20 @@ body {
     box-shadow: var(--secao-box-shadow);
 }
 
+#portfolio #btnCidadeAnterior,
+#portfolio #btnProximaCidade {
+    background-color: #ff2e2e;
+    border-color: #ff2e2e;
+}
+
+#portfolio #btnCidadeAnterior:hover,
+#portfolio #btnProximaCidade:hover,
+#portfolio #btnCidadeAnterior:focus-visible,
+#portfolio #btnProximaCidade:focus-visible {
+    background-color: #e52626;
+    border-color: #e52626;
+}
+
 #contato {
     background: var(--secao-bg-color);
     box-shadow: var(--secao-box-shadow);
