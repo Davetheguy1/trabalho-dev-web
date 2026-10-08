@@ -1,0 +1,81 @@
+﻿:root {
+    --secao-bg-color: #5e5d5d;
+    --secao-box-shadow: 1.95px 1.95px 2.6px rgba(0, 0, 0, .15);
+}
+
+body {
+    background-color: #000000;
+}
+
+#app {
+    margin: auto;
+    max-width: 1000px;
+    padding: 12px;
+}
+
+#header {
+    background: var(--secao-bg-color);
+    box-shadow: var(--secao-box-shadow);
+    padding: 5px;
+}
+
+#banner {
+    background: var(--secao-bg-color);
+    box-shadow: var(--secao-box-shadow);
+}
+
+#banner .banner-text {
+    background: #ff2e2e;
+    background-clip: text;
+    color: transparent;
+}
+
+#banner .bg-foto {
+    margin-right: 3rem;
+    width: 15rem;
+}
+
+#sobre {
+    background: var(--secao-bg-color);
+    box-shadow: var(--secao-box-shadow);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+#sobre .quote {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    width: 50px;
+}
+
+#produtos {
+    background: var(--secao-bg-color);
+    box-shadow: var(--secao-box-shadow);
+}
+
+#produtos .produto-imagem {
+    height: 8rem;
+    object-fit: contain;
+}
+
+#portfolio {
+    background: var(--secao-bg-color);
+    box-shadow: var(--secao-box-shadow);
+}
+
+#contato {
+    background: var(--secao-bg-color);
+    box-shadow: var(--secao-box-shadow);
+}
+
+#contato .icone {
+    background: #e23636;
+    border-radius: 50%;
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.modal-body-customizado {
+    background-color: #3d3d3d;
+}
